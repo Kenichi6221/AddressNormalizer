@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19DE7E5C-DAEA-47D0-ABBD-CC4561621D7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{EA103A8C-E13E-4BFD-9614-9CFC251B465D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressNormalizer.Api", "src\API\AddressNormalizer.Api\AddressNormalizer.Api.csproj", "{24A6DCE0-35A7-4245-867B-7E8D74CCDF23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{85431A0B-5315-42B7-941C-CA55B6E6E13A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressNormalizer.Domain", "src\Core\AddressNormalizer.Domain\AddressNormalizer.Domain.csproj", "{724FDDF6-11FE-468B-B095-9F202A086E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressNormalizer.Application", "src\Core\AddressNormalizer.Application\AddressNormalizer.Application.csproj", "{D3613F57-37F9-4D62-A2DC-2C47AA81EC48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1DAB9FC6-A130-4A08-B4EF-029B33159C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressNormalizer.Infrastructure", "src\Infrastructure\AddressNormalizer.Infrastructure\AddressNormalizer.Infrastructure.csproj", "{C6C2A6C6-8843-49BA-8EDC-788CC332249E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24A6DCE0-35A7-4245-867B-7E8D74CCDF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A6DCE0-35A7-4245-867B-7E8D74CCDF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A6DCE0-35A7-4245-867B-7E8D74CCDF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A6DCE0-35A7-4245-867B-7E8D74CCDF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724FDDF6-11FE-468B-B095-9F202A086E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724FDDF6-11FE-468B-B095-9F202A086E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724FDDF6-11FE-468B-B095-9F202A086E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724FDDF6-11FE-468B-B095-9F202A086E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3613F57-37F9-4D62-A2DC-2C47AA81EC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3613F57-37F9-4D62-A2DC-2C47AA81EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3613F57-37F9-4D62-A2DC-2C47AA81EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3613F57-37F9-4D62-A2DC-2C47AA81EC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C2A6C6-8843-49BA-8EDC-788CC332249E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C2A6C6-8843-49BA-8EDC-788CC332249E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C2A6C6-8843-49BA-8EDC-788CC332249E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C2A6C6-8843-49BA-8EDC-788CC332249E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA103A8C-E13E-4BFD-9614-9CFC251B465D} = {19DE7E5C-DAEA-47D0-ABBD-CC4561621D7D}
+		{24A6DCE0-35A7-4245-867B-7E8D74CCDF23} = {EA103A8C-E13E-4BFD-9614-9CFC251B465D}
+		{85431A0B-5315-42B7-941C-CA55B6E6E13A} = {19DE7E5C-DAEA-47D0-ABBD-CC4561621D7D}
+		{724FDDF6-11FE-468B-B095-9F202A086E79} = {85431A0B-5315-42B7-941C-CA55B6E6E13A}
+		{D3613F57-37F9-4D62-A2DC-2C47AA81EC48} = {85431A0B-5315-42B7-941C-CA55B6E6E13A}
+		{1DAB9FC6-A130-4A08-B4EF-029B33159C89} = {19DE7E5C-DAEA-47D0-ABBD-CC4561621D7D}
+		{C6C2A6C6-8843-49BA-8EDC-788CC332249E} = {1DAB9FC6-A130-4A08-B4EF-029B33159C89}
+	EndGlobalSection
+EndGlobal

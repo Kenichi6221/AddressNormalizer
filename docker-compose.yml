@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  address-normalization-webapi:
+    build: .
+    image: address-normalization-webapi
+    container_name: address-normalization-webapi-container
+    ports:
+      - "8080:80"
